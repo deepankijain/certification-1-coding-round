@@ -1,0 +1,60 @@
+main {
+  margin-top: 100px;
+}
+#homepage-wrapper {
+  width: 100%;
+  padding: 0 8% 4%;
+}
+#homepage-wrapper h1 {
+  margin: 0%;
+}
+#orders-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+#filter-wrapper {
+  width: 180px;
+}
+#filter-wrapper h3 {
+  margin: 0%;
+}
+#filter-options {
+  display: flex;
+  flex-direction: column;
+}
+.filter-checkbox {
+  margin: 6px 0;
+  cursor: pointer;
+}
+.filter-checkbox input {
+  margin-right: 12px;
+}
+#orders {
+  width: 100%;
+}
+#orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td,
+th {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+.table-row td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+.primary-text {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+.secondary-text {
+  color: #8c8c8c;
+}
+.hide {
+  display: none;
+}
